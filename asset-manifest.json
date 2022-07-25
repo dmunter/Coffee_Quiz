@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Coffee_Quiz/static/css/main.118baac0.css",
+    "main.js": "/Coffee_Quiz/static/js/main.cbac3ce6.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Coffee_Quiz/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/Coffee_Quiz/index.html",
+    "main.118baac0.css.map": "/Coffee_Quiz/static/css/main.118baac0.css.map",
+    "main.cbac3ce6.js.map": "/Coffee_Quiz/static/js/main.cbac3ce6.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Coffee_Quiz/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.118baac0.css",
+    "static/js/main.cbac3ce6.js"
+  ]
+}
