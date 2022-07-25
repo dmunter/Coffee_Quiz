@@ -68,22 +68,24 @@ body{
   }
 }
 
-@media only screen  {
-  body {
+@media  screen and (max-width: 600px) {
+  html, body {
     overflow: hidden;
     background-color: #282c34;
   }
-  .shadow{
+
+}
+@media  screen and (max-width: 600px) {
+  body .shadow{
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 30%;
+    height: 20%;
     background-color: #282c34;
-    box-shadow: 10px 10px 50px 60px #282c34 ;
+    box-shadow: 10px 10px 70px 100px #282c34 ;
   }
 
 }
-
 .main > li {
   font-size: 20px;
 }
@@ -118,7 +120,6 @@ body{
   flex-direction: column;
   align-items: center;  
   margin-top:35vh;
-  
   transition: transform 1s;
   overflow: hidden;
   text-align: center;  
@@ -153,7 +154,7 @@ h1{
   width: 100%;
   height: 30%;
   background-color: #282c34;
-  box-shadow: 10px 10px 50px 110px #282c34 ;
+  box-shadow: 10px 10px 30px 80px #282c34 ;
 }
 .fun-fact{
   color: #868b95;
