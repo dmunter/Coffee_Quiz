@@ -23,14 +23,16 @@ p{
   width: 30%;
 }
 
-body{
-  overflow: hidden;
-  background-color: #282c34;
+#root {
+overflow: hidden;
 }
 
-
-
-
+html, body{
+  overflow-y: hidden; 
+  overflow-x: hidden; 
+  height: 100vh;
+  background-color: #282c34;
+}
 
 
 .btn{
@@ -83,6 +85,11 @@ body{
     height: 20%;
     background-color: #282c34;
     box-shadow: 10px 10px 70px 100px #282c34 ;
+  }
+}
+@media  screen and (max-width: 600px) {
+  body .container{
+    margin-top:25vh;
   }
 
 }
