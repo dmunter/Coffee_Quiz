@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+  justify-items: center;
+}
+
+.App-logo {
+  
+  pointer-events: none;
+  position: relative;
+  right: 30%;
+  
+}
+
+.navb{
+ width: 100%;
+ float: left;
+ height: 100px;
+ background-color: wheat;
+}
+
+p{
+  margin: 0;
+  width: 30%;
+}
+
+body{
+  overflow: hidden;
+  background-color: #282c34;
+}
+
+
+
+
+
+
+.btn{
+  width:75px;
+  height:  35px;
+  box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  font-size: 20px;
+}
+.btn:hover{
+  cursor: pointer;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main > li {
+  font-size: 20px;
+}
+
+.box{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 350px;
+  height: 200px;
+  margin: 15px;
+  border-radius: 25px;
+  background-color: #E9EBF1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 2;
+}
+.btn-container{
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  place-content: space-evenly;
+  width: 40%;
+  
+  
+  
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  margin-top:35vh;
+  
+  transition: transform 1s;
+  overflow: hidden;
+  text-align: center;  
+}
+
+
+p{
+  font-family: "VIC-Regular","Arial","Helvetica","sans-serif";
+}
+h1{
+  margin-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "franklin-gothic-urw",sans-serif;
+}
+
+.fade {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 1s, opacity 1s linear;
+}
+.fadetwo{
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 1s, opacity 500ms linear;
+}
+
+
+.shadow{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30%;
+  background-color: #282c34;
+  box-shadow: 10px 10px 50px 100px #282c34 ;
+}
+.fun-fact{
+  color: #868b95;
+  margin-bottom: 15px;
+  line-height:2em;
+}

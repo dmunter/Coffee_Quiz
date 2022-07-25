@@ -1,0 +1,42 @@
+
+.showcase{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 300ms, opacity 300ms;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: wheat;
+    position: absolute;
+    z-index: 1;
+    top: 25%;
+}
+.watermark{
+    color:  #868b95;
+    font-weight: 900;
+}
+.results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.results h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color:  #868b95;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+}
+.results h1 {
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
+.display {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s linear 0s, opacity 500ms;
+}
