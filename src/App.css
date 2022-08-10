@@ -38,6 +38,8 @@ html, body{
 .btn{
   width:75px;
   height:  35px;
+  margin-left: 5px;
+  margin-right: 5px;
   box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.1);
   padding: 2px;
   font-size: 20px;
@@ -89,7 +91,7 @@ html, body{
 }
 @media  screen and (max-width: 600px) {
   body .container{
-    margin-top:25vh;
+    margin-top:20vh;
   }
 
 }
@@ -118,8 +120,6 @@ html, body{
   bottom: 20px;
   place-content: space-evenly;
   width: 40%;
-  
-  
   
 }
 .container{
@@ -154,7 +154,6 @@ h1{
   transition: visibility 0s 1s, opacity 500ms linear;
 }
 
-
 .shadow{
   position: absolute;
   bottom: 0;
@@ -167,4 +166,11 @@ h1{
   color: #868b95;
   margin-bottom: 15px;
   line-height:2em;
+}
+
+.icon-1 {
+  align-self: flex-start ;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  opacity: .6;
 }

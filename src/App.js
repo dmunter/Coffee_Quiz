@@ -3,8 +3,8 @@ import './App.css';
 import './resultsstyles.css';
 import  { forwardRef, useState }  from 'react'
 import {useRef, useEffect} from 'react';
-
-
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 var clicks = 0;
 var correctcount = 0;
@@ -17,7 +17,7 @@ const listItems = [
 ];
 
 const listFact = [
-  "Caffiene can raise metabolism promoting calorie burn",
+  "Caffeine can raise metabolism promoting calorie burn",
   "Waiting 1 to 2 hours before drinking coffee in the morning helps aviod that mid afternoon crash",
   "Coffee contains large amounts of antioxidants that help reduce the risk of several diseases.",
   "Drinking coffee stimulates movement of the colonic muscles, which can help promote bowel regularity.",
@@ -84,6 +84,7 @@ function App() {
     <div className='container'>
       <div className="box one">
         <h1>Do you like Coffee?</h1>
+        
         <p>Question 1</p>
         <div className='btn-container'>
           <button onClick = {(e) => clickHandle(e,1)}className='btn'>Yes</button>
@@ -92,7 +93,7 @@ function App() {
           
       </div>
       <div className="box 2">
-      <h1>Have you had any caffiene today?</h1>
+      <h1>Have you had any caffeine today?</h1>
       <p>Question 2</p>
         <div className='btn-container'> 
           <button onClick = {(e) => clickHandle(e,0)}className='btn'>Yes</button>
@@ -189,10 +190,13 @@ function App() {
     <div className = 'showcase'>
       
       <h2 className = 'watermark'>Is it a good time to drink a coffee?</h2>
+      <faCoffee icon="fa-solid fa-mug-hot" />
       <div className = 'results'>
           <h2>Results:</h2>
           <h1 > { Item }</h1>
           <p className = 'fun-fact'> *{ randFact }</p>
+         
+          <FontAwesomeIcon icon={faCoffee} className='icon-1' />
       </div>
 
     </div>

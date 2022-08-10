@@ -1,7 +1,8 @@
 
 import './headerstyles.css';
 import '../App.css';
-
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Header(){
   function showContent(){
@@ -21,10 +22,12 @@ function Header(){
       
        <div className='window' >
         <h2>Should I Drink a Coffee Right Now?</h2>
+        
         <p>Coffee can be a great mood booster and increase productivity.</p>
         <p>However, in some situations it may be better to choose water.</p>
         <p>Take this quiz to see if its the right time to make a cup of your favorite beverage!</p>
        <button className= 'btn-1' onClick = {() => showContent()}> Begin Quiz!  </button>
+       <FontAwesomeIcon icon={faCoffee} className='icon' > </FontAwesomeIcon>
       </div>
     </div>
     )
