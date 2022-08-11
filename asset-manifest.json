@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Coffee_Quiz/static/css/main.2a43411b.css",
-    "main.js": "/Coffee_Quiz/static/js/main.cbac3ce6.js",
+    "main.css": "/Coffee_Quiz/static/css/main.9cd8943f.css",
+    "main.js": "/Coffee_Quiz/static/js/main.ab8410a9.js",
     "static/js/787.28cb0dcd.chunk.js": "/Coffee_Quiz/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/Coffee_Quiz/index.html",
-    "main.2a43411b.css.map": "/Coffee_Quiz/static/css/main.2a43411b.css.map",
-    "main.cbac3ce6.js.map": "/Coffee_Quiz/static/js/main.cbac3ce6.js.map",
+    "main.9cd8943f.css.map": "/Coffee_Quiz/static/css/main.9cd8943f.css.map",
+    "main.ab8410a9.js.map": "/Coffee_Quiz/static/js/main.ab8410a9.js.map",
     "787.28cb0dcd.chunk.js.map": "/Coffee_Quiz/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a43411b.css",
-    "static/js/main.cbac3ce6.js"
+    "static/css/main.9cd8943f.css",
+    "static/js/main.ab8410a9.js"
   ]
 }
